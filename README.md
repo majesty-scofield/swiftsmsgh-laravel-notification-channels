@@ -104,7 +104,7 @@ $ composer test
 
 ## Security
 
-If you discover any security related issues, please email support@Swiftsmsgh.com instead of using the issue tracker.
+If you discover any security related issues, please email support@swiftsmsgh.com instead of using the issue tracker.
 
 ## Contributing
 
@@ -112,7 +112,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Swiftsmsgh](https://github.com/majesty-scofield)
+- [Majesty-Scofield](https://github.com/majesty-scofield)
 - [All Contributors](../../contributors)
 
 ## License
