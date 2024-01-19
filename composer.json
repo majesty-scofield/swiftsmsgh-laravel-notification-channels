@@ -1,0 +1,48 @@
+{
+    "name": "swiftsmsgh-laravel-notification-channels/swiftsmsgh",
+    "description": "swiftsms-GH SMS Notification Channel For Laravel",
+    "homepage": "https://github.com/swiftsmsgh-laravel-notification-channels/swiftsmsgh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reborn Dzre",
+            "email": "reborndzre@gmail.com",
+            "homepage": "https://swiftsmsgh.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/notifications": "~5.0 || ~6.0 || ~7.0 || ~8.0",
+        "illuminate/support": "~5.0 || ~6.0 || ~7.0 || ~8.0",
+        "swiftsmsgh/swiftsmsgh-api-sdk": "^1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Swiftsmsgh\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Swiftsmsgh\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-text --coverage-clover=coverage.clover"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "SwiftsmsghServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
